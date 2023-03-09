@@ -1,0 +1,33 @@
+relations:
+
+f1 -> sp - f1 f2 f3 f4 - n1 n2 n3 n4
+
+f2 -> sp2 - f2 f1 f3 f4 - n1 n2 n3 n4
+
+f3 -> sp3 - f3 f2 f1 f4 - n1 n2 n3 n4
+
+f4 -> sp4 - f4 f2 f3 f1 - n1 n2 n3 n4
+
+f5 -> sp5 - f5 f6 f7 f8 - n1 n2 n3 n4
+
+f6 -> sp6 - f6 f5 f7 f8 - n1 n2 n3 n4
+
+f7 -> sp7 - f7 f6 f5 f8 - n1 n2 n3 n4
+
+f8 -> sp8 - f8 f6 f7 f5 - n1 n2 n3 n4
+
+n1 -> sp9 - n1 n2 n3 n4 - f1 f2 f3 f4
+
+n2 -> sp10 - n2 n1 n3 n4 - f1 f2 f3 f4
+
+n3 -> sp11 - n3 n2 n1 n4 - f1 f2 f3 f4
+
+n4 -> sp12 - n4 n2 n3 n1 - f1 f2 f3 f4
+
+n5 -> sp13 - n5 n6 n7 n8 - f1 f2 f3 f4
+
+n6 -> sp14 - n6 n5 n7 n8 - f1 f2 f3 f4
+
+n7 -> sp15 - n7 n6 n5 n8 - f1 f2 f3 f4
+
+n8 -> sp16 - n8 n6 n7 n5 - f1 f2 f3 f4
